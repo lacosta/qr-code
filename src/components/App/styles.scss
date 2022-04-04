@@ -1,0 +1,21 @@
+@import 'global-styles/globals.scss';
+
+.app {
+  margin: 20px;
+
+  &__footer {
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+
+    &-link {
+      color: $chinese-blue;
+      text-decoration: none;
+      margin-left: 3px;
+
+      &:visited {
+        color: none;
+      }
+    };
+  };
+};
